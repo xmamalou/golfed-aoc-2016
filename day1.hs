@@ -1,1 +1,1 @@
-import Data.List.Split;f(x,y)[]=(x,y);f(x,y)((d:n):b)=f(((\(x,y)->(x,y+read n)).(\(x,y)->case d of 'R'->(-y,x);'L'->(y,-x)))(x,y))b;main=getLine>>=print.(\(x,y)->abs x+abs y).f(0,0).splitOn", "
+import Data.List.Split;f a[]=a;f a((d:n):b)=f(((\(x,y)->(x,y+read n)).(\(x,y)->case d of 'R'->(-y,x);_->(y,-x)))a)b;main=getLine>>=print.(\(x,y)->abs x+abs y).f(0,0).splitOn", "
