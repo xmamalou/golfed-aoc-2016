@@ -1,0 +1,1 @@
+import System.IO;import Data.List.Split;m d=(\(x,y)->case d of 'R'->(-y,x);'L'->(y,-x));a n (x,y)=(x,y+read n);f(x,y)[]=(x,y);f(x,y)((d:n):b)=f((a n.m d) (x,y))b;main=openFile"a"ReadMode>>=hGetContents>>=print.(\(x,y)->abs x+abs y).f(0,0).splitOn", "
