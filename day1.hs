@@ -1,1 +1,1 @@
-import Data.List.Split;f a[]=a;f a((d:n):b)=f(((\(x,y)->(x,y+read n)).(\(x,y)->if d=='R'then(-y,x)else(y,-x)))a)b;main=getLine>>=print.(\(x,y)->abs x+abs y).f(0,0).splitOn", "
+import Data.List.Split;a![]=a;a!((d:n):b)=((\(x,y)->(x,y+read n)).(\(x,y)->if d=='R'then(-y,x)else(y,-x)))a!b;main=getLine>>=print.(\(x,y)->abs x+abs y).(!)(0,0).splitOn ", "
