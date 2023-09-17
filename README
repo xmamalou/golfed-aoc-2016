@@ -1,1 +1,1 @@
-This is an attempt to create a golfed solution for the AOC Day 1 puzzle. Currently, the solution that I have provided is 175 B long (there are smaller size records). It doesn't depend on the input file, but on reading the input from `stdin`
+This is an attempt to create a golfed solution for the AOC Day 1 puzzle. Currently, the solution that I have provided is 174 B long (there are smaller size records). It doesn't depend on the input file, but on reading the input from `stdin`
